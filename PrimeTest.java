@@ -20,7 +20,7 @@ class Prime implements Runnable{
 	
 	}
 }
-	class NonPrime extends Thread{
+	class NonPrime implements Runnable{
 		@Override
 		public void run() {
 			
